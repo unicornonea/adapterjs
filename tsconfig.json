@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "paths": {
+      "crypto": ["node_modules/crypto-js"]
+    }
+  },
+  "include": ["./src/*", "config-overrides.js"],
+  "exclude": ["node_modules"]
+}
