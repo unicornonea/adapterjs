@@ -46,7 +46,18 @@ const Home = props => {
     };
     func();
   }, []);
-  return <div>Homejfjdf</div>;
+  const openseaUrl = encodeURI('https://opensea.io/');
+  return (
+    <div>
+      <div>Home...</div>
+      <div>
+        <h1>imtoken</h1>
+        <div>
+          <a href={`imtokenv2://navigate/DappView?url=${openseaUrl}`}>imtoken deeplink</a>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
