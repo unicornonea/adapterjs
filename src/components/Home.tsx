@@ -48,10 +48,15 @@ const Home = props => {
   }, []);
   const openseaUrl = encodeURI('https://opensea.io/');
   return (
-    <div>
+    <div className="home-container">
       <div>Home...</div>
       <div>
-        <h1>imtoken</h1>
+        <h1>
+          imtoken{' '}
+          <a href="https://imtoken.gitbook.io/developers/v/zh/products/deep-linking" target="_blank">
+            doc link
+          </a>
+        </h1>
         <div>
           <a href={`imtokenv2://navigate/DappView?url=${openseaUrl}`}>imtoken deeplink</a>
         </div>
