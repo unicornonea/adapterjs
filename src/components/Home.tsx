@@ -7,7 +7,7 @@ import TronWeb from 'tronweb';
 
 import Buffer from 'buffer';
 
-import priConfig from '../Config';
+import priConfig from '../../src/Config';
 
 // @ts-ignore
 window.ethers = ethers;
