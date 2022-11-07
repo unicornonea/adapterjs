@@ -79,7 +79,7 @@ const Home = props => {
             <a href={`https://metamask.app.link/send/${tokenAddress}@${chainId}/transfer?address=${receiverAddress}&uint256=${tokenAmount}`}>Payment Request: ERC20 token transfer</a>
           </li>
           <li>
-            <a href={`https://metamask.app.link/payment/${targetAddress}?amount=${amountNumber}&dedail=${detail}`}>Payment Request: ERC20 token transfer</a>
+            <a href={`https://metamask.app.link/payment/${targetAddress}?amount=${amountNumber}&dedail=${detail}`}>Payment Channel Request</a>
           </li>
         </ol>
       </>
@@ -205,14 +205,44 @@ const Home = props => {
     )
   }
 
+  const phantomDeeplink = () => {
+    return (
+      <>
+        <h1>Phantom{' '}
+          <a href="https://docs.phantom.app/solana/integrating-phantom/deeplinks-ios-and-android" target="_blank">
+            doc link
+          </a>
+        </h1>
+        <ol>
+          <li>
+            <a href={`https://github.com/phantom-labs/deep-link-demo-app`}>phantome deeplink demo</a>
+          </li>
+        </ol>
+      </>
+    )
+  }
+
+  const trustWalletDeeplink = () => {
+    return (
+      <>
+        <h1>TrustWallet{' '}
+          <a href="https://developer.trustwallet.com/deeplinking" target="_blank">
+            doc link
+          </a>
+        </h1>
+      </>
+    )
+  }
+
   const openseaUrl = encodeURI('https://opensea.io/');
 
   return (
     <div className="home-container">
       <div>Home...</div>
       <div>
+        {metamaskDeepLink()}
         <h1>
-          imtoken{' '}
+          Imtoken{' '}
           <a href="https://imtoken.gitbook.io/developers/v/zh/products/deep-linking" target="_blank">
             doc link
           </a>
@@ -220,9 +250,10 @@ const Home = props => {
         <div>
           <a href={`imtokenv2://navigate/DappView?url=${openseaUrl}`}>imtoken deeplink</a>
         </div>
-        {metamaskDeepLink()}
         {coinbaseDeeplink()}
         {tpDeeplink()}
+        {phantomDeeplink()}
+        {trustWalletDeeplink()}
       </div>
     </div>
   );
