@@ -63,7 +63,11 @@ const Home = props => {
 
     return (
       <>
-        <h1>Metamask</h1>
+        <h1>Metamask{' '}
+          <a href="https://docs.metamask.io/guide/mobile-best-practices.html#deeplinking" target="_blank">
+            doc link
+          </a>
+        </h1>
         <ol>
           <li>
             <a href={`https://metamask.app.link/dapp/${dappUrl}`}>Open a dapp</a>
@@ -87,7 +91,11 @@ const Home = props => {
     const callback = null;
     return (
       <>
-        <h1>Coinbase</h1>
+        <h1>Coinbase{' '}
+          <a href="https://docs.cloud.coinbase.com/wallet-sdk/docs/deep-link-into-dapp-browser" target="_blank">
+            doc link
+          </a>
+        </h1>
         <ol>
           <li>
             <a href={`https://go.cb-w.com/dapp?cb_url=${dappUrl}&cb_callback=${callback}`}>coinbase deeplink</a>
@@ -171,7 +179,11 @@ const Home = props => {
     }
     return (
       <>
-        <h1>Token Pocket</h1>
+        <h1>Token Pocket{' '}
+          <a href="https://help.tokenpocket.pro/developer-cn/mobile-wallet/deeplink" target="_blank">
+            doc link
+          </a>
+        </h1>
         <ol>
           <li>
             <a href={`tpoutside://pull.activity?param=${encodeURI(JSON.stringify(authorizeParam))}`}>Open TokenPocket to authorize</a>
