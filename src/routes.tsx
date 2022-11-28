@@ -4,7 +4,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Wallet from './components/Wallet';
 import SendOneLamportToRandomAddress from './components/SendOneLamportToRandomAddress';
-
+import DeepLink from './components/DeepLink';
 export default function App() {
   return (
     <HashRouter>
@@ -12,6 +12,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/deeplink" element={<DeepLink />} />
           <Route path="/wallet" element={<Wallet />} />
           <Route path="/transaction" element={<SendOneLamportToRandomAddress />} />
         </Routes>
