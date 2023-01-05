@@ -32,7 +32,7 @@ specifiers:
   react-scripts: 5.0.1
   stream-browserify: ^3.0.0
   stream-http: ^3.2.0
-  tronweb: link:../tronweb-private
+  tronweb: link:../tronweb
   typescript: ^4.8.2
   url: ^0.11.0
   web-vitals: ^2.1.4
@@ -61,7 +61,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.1_biqbaboplfbrettd7655fr4n2y
   react-scripts: 5.0.1_uz2ogxeagc4rbieizlfzyaazee
-  tronweb: 4.4.0
+  tronweb: 5.0.0
   typescript: 4.8.4
   web-vitals: 2.1.4
   web3: 1.8.0
@@ -3624,6 +3624,10 @@ packages:
       - encoding
       - supports-color
       - utf-8-validate
+    dev: false
+
+  /@tronweb3/google-protobuf/3.21.2:
+    resolution: {integrity: sha512-IVcT2GfWX3K6tHUVhs14NP5uzKhQt4KeDya1g9ACxuZsUzsaoGUIGzceK2Ltu7xp1YV94AaHOf4yxLAivlvEkQ==}
     dev: false
 
   /@trysound/sax/0.2.0:
@@ -12079,10 +12083,11 @@ packages:
     dependencies:
       punycode: 2.1.1
 
-  /tronweb/4.4.0:
-    resolution: {integrity: sha512-0yPmjQE1drPcDtW4YCXFjtvDQmKc/utjKB2J6U5GDcWWhsGqE8yFjdIMJRa1yj1a/oFQNlthKMzw4Jd7lkWbYA==}
+  /tronweb/5.0.0:
+    resolution: {integrity: sha512-cKwYWYSGJ5ROyY2ybWSHGF38puML4pCl4Uax7sEOtJpMnjgO0RWrs6swCj/6RnM75rPL1O+RZshGXD0JuED2zg==}
     dependencies:
       '@babel/runtime': 7.19.0
+      '@tronweb3/google-protobuf': 3.21.2
       axios: 0.26.1
       bignumber.js: 9.1.0
       elliptic: 6.5.4
