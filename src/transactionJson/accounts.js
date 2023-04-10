@@ -1,0 +1,38 @@
+export const accounts = {
+  'b58': [
+    'TQchc4RpjZhyRhp1XiGFqXSQ4tJFijhiud',
+    'TY4e1e4DbKS4k563uQKY7iKSm6FKeHWyRP',
+    'TKnPKDY9qVsS3euhCwm9ESrWpqYNV7h2FB',
+    'TMgjF9zrnBiEGcYwPLbRmtM4Todygt9wjx',
+    'TRStHTo3ePbpLyapKRHYrdoPdL4aoSDbJi',
+    'TKsT1jYvLvf6dgYzF76aDNEk4raPNG3F2a',
+    'TRBigNBVFRGPPjU6EPsbRzBzVv79ABRAU5',
+    'TR2UBvmB88NprTTrtkgdiwdEZM6gE2n81g',
+    'TDR9Tq9TS9wcXr5XosHg8S1Lz4A5G3qchE',
+    'TGRYfUsYVE7nEkT18SJ5v4VYWp9JfLkWPy'
+  ],
+  'hex': [
+    '41a0a9074da52dab4a4d505306c5641e0f30ae3fb8',
+    '41f259b96f946ad09a6ba509646f21e9c49380cbdb',
+    '416ba54a8a63b1761d5aef6cd51d2dee2fd1a685c1',
+    '418083af05ceeb0de98b71d9ad475b6d9437790c64',
+    '41a9c5e8cccb5a4a97a4b50b0ebaa3f31233664757',
+    '416c9a7559af9ef8e507ec2700fd59ab270a29788d',
+    '41a6e7a6e97e0ac9fd320717b06d36dc2feec99494',
+    '41a527cffbf85c2e21d0b967e6a95e77316ca8ff9a',
+    '4125d03d175a202b46d8efe572b98834b489bf8111',
+    '4146cbfbac6a67cbb788346b46b8dcd39912098c33'
+  ],
+  'pks': [
+    'c2278d192fd469e5c82ccea0bbf051ed407fc8116c21b67f04b6e15ff37d2d53',
+    '9239e73244ae089fb9bed227a8ea45f847dcab5e64ab5ecf798d2c1a3503c2b2',
+    '4b36e814a0cc72ee4ca5a041d13292dbb23b29a8aa9a87fae7e1ce5af5eb1048',
+    '37d97f87c4faacd66f554332ffab97945c276ad0fc9bb9755f41927449ff33ed',
+    '0749bd132198b7f16e5049732fac0430cb7322708ace24dc7079620ca37ab9f9',
+    '5f0d3fb500a61c466ed393684c3d35256aab94373cbadcaec3dfc8ef83ee7d12',
+    '41b21b068a34108c2509698f7edf3dbfce0611bb8c5b9a68ed364e769a91e6f8',
+    '6f0e847db1baa3d9457275e560eafceacfceead2f202fa7870101b5ea6c5ba1d',
+    '39abfb77644056372d4b64c96b5263525cc25235b2ccf1b1b1ba53f0e60884b0',
+    'ed9b87dc25793130f3a8523909e241b87445a6eb4a9abef71e18d4b4018a958a'
+  ]
+};
